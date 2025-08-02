@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(145, 186, 123);
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header-button{
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: rgb(145, 186, 123);
+    border-radius: 15px;
+    margin: 5px;
+    border-color: white;
+    border-style: hidden;
+    transition: color 1s, background-color 1s,  box-shadow 0s;
+    cursor: pointer;
+    
+}   
+.header-button:hover{
+    background-color: white;
+    color: rgb(145, 186, 123);
+    
+}
+
+.header-button:active{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.6);
+
+}
+.logo{
+    height: 50px;
+}
+
+a{
+    all: unset;
+}

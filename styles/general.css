@@ -1,0 +1,16 @@
+p{
+  font-family: Arial;
+  color: blue;
+}
+.title{
+  display: inline-block;
+  color: white;
+  margin: 0;
+  display: inline-block;
+}
+.text-regular{
+  display: inline-block;
+  color: white;
+  margin: 0;
+  display: inline-block;
+}

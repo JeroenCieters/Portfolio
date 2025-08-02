@@ -1,0 +1,99 @@
+.grid-projecten {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+
+}
+
+@media(max-width:1000px) {
+  .grid-projecten {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+.lightpink {
+
+  border: 5px;
+  border-style: solid;
+  border-color: rgb(145, 186, 123);
+  border-radius: 25px;
+  margin: 16px;
+}
+
+.lightblue {
+  border-style: solid;
+  background-color: rgb(145, 186, 123);
+  border-color: rgb(145, 186, 123);
+  border-radius: 25px;
+  margin: 16px;
+}
+
+.flex-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  margin-left: 32px;
+  margin-right: 32px;
+
+}
+
+.image-project {
+  height: 80%;
+  border-radius: 15px;
+}
+
+.titleblock {
+  margin-top: 24px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.textblock {
+  margin: 8px;
+}
+
+.inleiding-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  height: 200px;
+  border-radius: 25px;
+  margin: 16px;
+  border: 5px;
+  border-style: solid;
+  border-color: rgb(145, 186, 123);
+}
+
+.image-inleiding {
+  height: 80%;
+  border-radius: 15px;
+  margin-left: 32px;
+}
+
+.inleiding-textblock {
+  margin: 16px;
+}
+
+.text-inleiding {
+  color: rgb(145, 186, 123);
+}
+
+.flex-contact {
+  display: flex;
+  align-items: center;
+  background-color: rgb(145, 186, 123);
+  justify-content: center;
+  height: 200px;
+  position: absolute;
+  left: 0 ;
+  right: 0;
+
+} 
+
+.text-contact{
+  display: block;
+  color: black;
+}
