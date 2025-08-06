@@ -1,14 +1,6 @@
 .grid-projecten {
   display: grid;
   grid-template-columns: 1fr 3fr;
-
-}
-
-@media(max-width:1000px) {
-  .grid-projecten {
-    grid-template-columns: 1fr;
-  }
-
 }
 
 .lightpink {
@@ -36,11 +28,10 @@
   height: 200px;
   margin-left: 32px;
   margin-right: 32px;
-
 }
 
 .image-project {
-  height: 80%;
+  height: 160px;
   border-radius: 15px;
 }
 
@@ -61,7 +52,7 @@
   justify-content: start;
   height: 200px;
   border-radius: 25px;
-  margin: 16px;
+  margin: 16px 16px 16px 16px;
   border: 5px;
   border-style: solid;
   border-color: rgb(145, 186, 123);
@@ -88,12 +79,27 @@
   justify-content: center;
   height: 200px;
   position: absolute;
-  left: 0 ;
+  left: 0;
   right: 0;
 
-} 
+}
 
-.text-contact{
-  display: block;
+.text-contact {
+  margin: 30px;
   color: black;
+}
+
+.image-bottom {
+  height: 16px;
+}
+
+@media(max-width:1000px) {
+  .titleblock {
+    margin-top: 8px;
+  }
+
+  .grid-projecten {
+    grid-template-columns: 1fr;
+  }
+
 }
