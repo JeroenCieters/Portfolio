@@ -1,116 +1,140 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Portfolio Jeroen Cieters</title>
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/header.css">
-  </head>
 
-  <body style="padding-top: 50px;">
-    <div id="boven"></div>
-    <div class="header">
-      <a href="#boven"> 
-          <img class="logo" src="images/logo.svg">
+<head>
+  <title>Portfolio Jeroen Cieters</title>
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/header.css">
+</head>
+
+<body style="padding-top: 50px;">
+  <section id="boven"></section>
+  <div class="header">
+    <a href="#boven">
+      <img class="logo" src="images/logo2.svg">
+    </a>
+    <div>
+      <a href="#boven">
+        <button class="header-button">
+          <p class="text-regular">over mij</p>
+        </button>
       </a>
-      <div>
-        <a href="#overMij">
-          <button class="header-button">over mij</button>
-        </a>
-        <a href="#projecten">
-          <button class="header-button">projecten</button>
-        </a>
-        <a href="#contact">
-        <button class="header-button">contact</button>
-        </a>
-        
-      </div>
-      
+      <a href="#projecten">
+        <button class="header-button">
+          <p class="text-regular">projecten</p>
+        </button>
+      </a>
+      <a href="#contact">
+        <button class="header-button">
+          <p class="text-regular">contact</p>
+        </button>
+      </a>
     </div>
-    
-    <section id="overMij">
-      <div class="inleiding-container">
-        <img class="image-inleiding" src="images/profiel.jpg">
-        <div class="inleiding-textblock">
-          <P class="text-inleiding">“Al van jongs af aan ben ik gepassioneerd door vormen, mechanismen en elektronica. Aan de UGent studeer ik industrieel ontwerpen om die passie verder te zetten en tastbarder te maken. Via deze html pagina toon ik graag een aantal afgewerkte projecten. Deze onderwerpen worden ondersteund door de theoretische vakken wiskunde, fysica en elektriciteit die we vooral in het eerste jaar hadden. ”</P>
-        </div>
-      </div>
-    </section>
-    
-      <div id="projecten" style="height: 50px;"></div>
-      <div class="grid-projecten">      
-        <div class="lightblue">
-          <div class="titleblock">
-            <P class="title">CAD</P>
-          </div>
-          <div class="textblock">
-            <p class="text-regular">solid, surface modelling, analyses en maken en interpreteren van technische tekeningen.</p>
-            
-          </div>
-        </div>
-        <div class="lightpink">
-          <div class="flex-images">
-            <img class="image-project" src="images/shifter.png">
-            <img class="image-project" src="images/reflection_grip2.png">
-            <img class="image-project" src="images/lamp2.png">
-          </div>
-        </div>
+  </div>
 
-
-
-        <div class="lightblue">
-          <div class="titleblock">
-            <P class="title">Productietechnieken</P>
-          </div>
-          <div class="textblock">
-            <p class="text-regular">PLA printen, SLS printen, spuitgieten, frezen, lasercutten. Deze zien we zowel theoretisch als praktisch waarbij we het stuk eerst in CAD tekenen, slicen en naar de machine sturen</p>
-          </div>
-        </div>
-        <div class="lightpink">
-          <div class="flex-images">
-            <img class="image-project" src="images/speaker.jpg">
-            <img class="image-project" src="images/lamp.jpg">
-            <img class="image-project" src="images/gebruiks1.png">
-          </div>
-        </div>
-
-        <div class="lightblue">
-          <div class="titleblock">
-            <P class="title">Graphic design</P>
-          </div>
-          <div class="textblock">
-            <p class="text-regular">Rendering, brochures en mock ups</p>
-          </div>
-        </div>
-        <div class="lightpink">
-          <div class="flex-images">
-            <img class="image-project" src="images/render lamp.png">
-            <img class="image-project" src="images/mock up.png">
-            <img class="image-project" src="images/render shifter.png">
-          </div>
-        </div>
-    
-        <div class="lightblue">
-          <div class="titleblock">
-            <P class="title">Programming</P>
-          </div>
-          <div class="textblock">
-            <p class="text-regular">Arduino, python, html, css</p>
-          </div>
-        </div>
-        <div class="lightpink">
-          <div class="flex-images">
-            <img class="image-project" src="images/RFID.png">
-            <img class="image-project" src="images/elektronica.png">
-          </div>
-        </div>    
-      </div>
-
-    <div id="contact" class="flex-contact">
-      <div>
-        <p class="text-contact">0495408328</p>
-        <p class="text-contact">0495428</p>
+  <section id="overMij">
+    <div class="inleiding-container">
+      <img class="image-inleiding" src="images/profiel.jpg">
+      <div class="inleiding-textblock">
+        <P class="text-inleiding"><i>“ Al van jongs af aan ben ik gepassioneerd door vormen, mechanismen en elektronica.
+            Aan de UGent studeer ik industrieel ontwerpen om die passie verder te zetten en tastbaarder te maken. Via
+            deze webpagina toon ik graag een aantal afgewerkte projecten. Deze projecten zijn gebaseerd op een
+            grondige theoretische kennis van o.a. wiskunde, fysica, elektriciteit, materialen, thermodynamica en
+            productietechnieken die we vooral
+            in het eerste jaar
+            zagen. ”</i></P>
       </div>
     </div>
-  </body>
+  </section>
+
+  <div id="projecten"></div>
+  <div class="grid-projecten">
+    <div class="lightblue">
+      <div class="titleblock">
+        <P class="title">CAD</P>
+      </div>
+      <div class="textblock">
+        <p class="text-regular">Solid en surface modelling, analyses en maken en interpreteren van technische
+          tekeningen.
+        </p>
+      </div>
+    </div>
+    <div class="lightpink">
+      <div class="flex-images">
+        <img class="image-project" src="images/shifter.png">
+        <img class="image-project" src="images/reflection_grip2.png">
+        <img class="image-project" src="images/lamp2.png">
+      </div>
+    </div>
+
+
+
+    <div class="lightblue">
+      <div class="titleblock">
+        <P class="title">Productietechnieken</P>
+      </div>
+      <div class="textblock">
+        <p class="text-regular">PLA en SLS printen, spuitgieten, frezen, thermovormen, lasercutten... Deze zien we zowel
+          theoretisch als praktisch waarbij we het stuk eerst in CAD tekenen, slicen en vervolgens naar de machine
+          sturen.</p>
+      </div>
+    </div>
+    <div class="lightpink">
+      <div class="flex-images">
+        <img class="image-project" src="images/speaker.jpg">
+        <img class="image-project" src="images/lamp.jpg">
+        <img class="image-project" src="images/gebruiks1.png">
+      </div>
+    </div>
+
+    <div class="lightblue">
+      <div class="titleblock">
+        <P class="title">Graphic design</P>
+      </div>
+      <div class="textblock">
+        <p class="text-regular">Rendering, brochures en mock ups</p>
+      </div>
+    </div>
+    <div class="lightpink">
+      <div class="flex-images">
+        <img class="image-project" src="images/render lamp.png">
+        <img class="image-project" src="images/mock up.png">
+        <img class="image-project" src="images/render shifter.png">
+      </div>
+    </div>
+
+    <div class="lightblue">
+      <div class="titleblock">
+        <P class="title">Programming</P>
+      </div>
+      <div class="textblock">
+        <p class="text-regular">Arduino, python, html en css. Klik op de afbeeldingen om de projecten in detail te
+          bekijken.</p>
+      </div>
+    </div>
+    <div class="lightpink">
+      <div class="flex-images">
+        <a href="https://github.com/margotrysman/RFID-Kluisje">
+          <img class="image-project" style="cursor: pointer;" src="images/RFID.png">
+        </a>
+        <a href="https://github.com/Thoma-D/UCD">
+          <img class="image-project" style="cursor: pointer;" src="images/elektronica.png">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="flex-contact">
+    <div>
+      <img class="image-bottom" src="images/phone-icon.svg">
+      <p class="text-regular">0495 40 83 28</p>
+    </div>
+    <div style="margin-left: 100px;">
+      <img class="image-bottom" src="images/mail-icon.svg">
+      <p class="text-regular">Jeroen.Cieters@ugent.be</p>
+    </div>
+  </div>
+</body>
+
 </html>
