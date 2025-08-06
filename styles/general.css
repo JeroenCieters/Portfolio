@@ -1,16 +1,25 @@
 p{
   font-family: Arial;
-  color: blue;
 }
 .title{
   display: inline-block;
   color: white;
   margin: 0;
   display: inline-block;
+  font-size: 20px;
 }
 .text-regular{
   display: inline-block;
   color: white;
   margin: 0;
   display: inline-block;
+  font-size: 16px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+#boven, #projecten{
+  scroll-margin-top: 60px;
 }
