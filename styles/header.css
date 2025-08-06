@@ -18,11 +18,18 @@
     border-style: hidden;
     transition: color 1s, background-color 1s,  box-shadow 0s;
     cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-family: Arial;
+    
+    
     
 }   
 .header-button:hover{
     background-color: white;
     color: rgb(145, 186, 123);
+    font-family: Arial;
+    font-size: 16px;
     
 }
 
@@ -39,3 +46,4 @@
 a{
     all: unset;
 }
+
