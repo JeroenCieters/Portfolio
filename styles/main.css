@@ -72,6 +72,10 @@
   color: rgb(145, 186, 123);
 }
 
+.logo_software{
+  height: 80px;
+}
+
 .flex-contact {
   display: flex;
   align-items: center;
@@ -103,3 +107,4 @@
   }
 
 }
+
