@@ -3,17 +3,15 @@ p{
 }
 .title{
   display: inline-block;
+  font-size: 20px;
   color: white;
   margin: 0;
-  display: inline-block;
-  font-size: 20px;
 }
 .text-regular{
   display: inline-block;
+  font-size: 16px;
   color: white;
   margin: 0;
-  display: inline-block;
-  font-size: 16px;
 }
 
 html{
@@ -24,3 +22,13 @@ html{
   scroll-margin-top: 60px;
 }
 
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
