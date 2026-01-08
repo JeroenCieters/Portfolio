@@ -28,6 +28,8 @@
   height: 200px;
   margin-left: 32px;
   margin-right: 32px;
+  
+
 }
 
 .image-project {
@@ -36,13 +38,17 @@
 }
 
 .titleblock {
-  margin-top: 24px;
-  margin-left: 8px;
-  margin-right: 8px;
+  padding: 16px;
+  
+ 
+  
 }
 
 .textblock {
-  margin: 8px;
+  padding: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
 }
 
 .inleiding-container {
@@ -107,6 +113,5 @@
   }
 
 }
-
 
 
