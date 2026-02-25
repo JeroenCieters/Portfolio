@@ -1,4 +1,6 @@
-.header {
+
+
+.header{
     display: flex;
     align-items: center;
     background-color: rgb(145, 186, 123);
@@ -8,8 +10,7 @@
     left: 0;
     right: 0;
 }
-
-.header-button {
+.header-button{
     height: 50px;
     width: 100px;
     background-color: rgb(145, 186, 123);
@@ -17,29 +18,32 @@
     margin: 5px;
     border-color: white;
     border-style: hidden;
-    transition: color 1s, background-color 1s, box-shadow 0s;
+    transition: color 1s, background-color 1s,  box-shadow 0s;
     cursor: pointer;
 
     font-size: 16px;
     font-family: Arial;
     color: white;
+}   
+
+.header-button:active{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.6);
+
 }
 
-.header-button:active {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
-
-}
-
-.header-button:hover {
+.header-button:hover{
     background-color: white;
     color: rgb(145, 186, 123);
+    font-size: 16px;
+    font-family: Arial;
 }
 
-.logo {
+.logo{
     height: 50px;
     cursor: pointer;
 }
 
-a {
+a{
     all: unset;
 }
+
