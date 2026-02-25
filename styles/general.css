@@ -1,34 +1,42 @@
-p{
-  font-family: Arial;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
-.title{
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 50px;
+  background-image: url('../images/MechAnimal4.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+p {
+  font-family: Arial, sans-serif;
+}
+
+.title {
   display: inline-block;
   font-size: 20px;
   color: white;
   margin: 0;
 }
-.text-regular{
+
+.text-regular {
   display: inline-block;
   font-size: 16px;
   color: white;
   margin: 0;
 }
 
-html{
-  scroll-behavior: smooth;
-}
-
-#boven, #projecten{
+#boven,
+#projecten {
   scroll-margin-top: 60px;
-}
-
-
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
