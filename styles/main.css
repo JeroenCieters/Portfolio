@@ -23,49 +23,48 @@
 .flex-images {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  height: 200px;
-  margin-left: 32px;
-  margin-right: 32px;
-  
-
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 12px 32px;
 }
 
 .image-project {
-  height: 160px;
+  height: clamp(80px, 14vw, 160px);
+  max-width: 100%;
+  object-fit: contain;
   border-radius: 15px;
 }
 
 .titleblock {
   padding: 16px;
-  
- 
-  
+
+
+
 }
 
 .textblock {
-  padding: 8px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 16px;
+  padding: 8px 16px 16px 16px;
 }
 
 .inleiding-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: start;
-  height: 200px;
+  justify-content: flex-start;
+  min-height: clamp(120px, 18vw, 200px);
   border-radius: 25px;
-  margin: 16px 16px 16px 16px;
-  border: 5px;
-  border-style: solid;
-  border-color: rgb(145, 186, 123);
+  margin: 16px;
+  padding: 12px 0;
+  border: 5px solid rgb(145, 186, 123);
+  overflow-x: auto;
 }
 
 .image-inleiding {
-  height: 80%;
+  height: clamp(80px, 12vw, 160px);
+  max-width: 100%;
+  object-fit: cover;
   border-radius: 15px;
   margin-left: 24px;
 }
@@ -78,8 +77,9 @@
   color: rgb(145, 186, 123);
 }
 
-.logo_software{
-  height: 40px;
+.logo_software {
+  height: clamp(24px, 3.5vw, 40px);
+  object-fit: contain;
 }
 
 .flex-contact {
@@ -87,11 +87,12 @@
   align-items: center;
   background-color: rgb(145, 186, 123);
   justify-content: center;
-  height: 200px;
-  position: absolute;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 32px 16px;
+  position: relative;
   left: 0;
   right: 0;
-
 }
 
 .text-contact {
@@ -103,7 +104,22 @@
   height: 16px;
 }
 
-@media(max-width:1000px) {
+.image-link {
+  cursor: pointer;
+}
+
+.contact-mail {
+  margin-left: clamp(16px, 8vw, 100px);
+}
+
+.software-logos {
+  min-height: clamp(60px, 8vw, 100px);
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 12px 24px;
+}
+
+@media (max-width: 1000px) {
   .titleblock {
     margin-top: 8px;
   }
@@ -111,7 +127,15 @@
   .grid-projecten {
     grid-template-columns: 1fr;
   }
-
 }
 
+@media (max-width: 600px) {
+  .flex-contact {
+    flex-direction: column;
+    height: auto;
+  }
 
+  .contact-mail {
+    margin-left: 0;
+  }
+}
